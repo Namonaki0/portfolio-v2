@@ -2,12 +2,12 @@
 const links = [
   {
     name: "GitHub",
-    href: "https://github.com",
+    href: "https://github.com/Namonaki0",
     icon: "entypo-social:github-with-circle",
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com",
+    href: "https://linkedin.com/in/andre-ferreira-37835b53/",
     icon: "entypo-social:linkedin-with-circle",
   },
 ];
@@ -20,8 +20,18 @@ const links = [
     >
       <p class="flex-1">&copy; Andre Ferreira 2023.</p>
       <div class="flex flex-row justify-center gap-4 mb-4 mt-2">
-        <a v-for="link in links" :key="link.name" :href="link.href">
-          <Icon :name="link.icon" size="1.5rem" class="text-gray-300" />
+        <a
+          v-for="link in links"
+          :key="link.name"
+          :href="link.href"
+          target="__blank"
+        >
+          <Icon
+            :name="link.icon"
+            size="1.5rem"
+            class="text-gray-300"
+            target="__blank"
+          />
         </a>
       </div>
     </section>
