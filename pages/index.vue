@@ -20,11 +20,11 @@ const { data: posts } = useAsyncData("latest-posts", () =>
         velit fugiat sed veritatis consectetur.
       </p>
     </div>
-    <img
+    <!-- <img
       src="./images/pexels-yurii-hlei-1545743.jpg"
       alt="profile image"
       class="w-1/2 md:max-w-sm p-8 mx-auto"
-    />
+    /> -->
   </section>
   <section>
     <h2 class="text-3xl font-bold mt-8">Latest Blog Posts</h2>

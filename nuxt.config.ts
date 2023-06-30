@@ -5,6 +5,16 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxt/content', '@nuxtjs/apollo'],
+  // app: {
+  //   head: {
+  //     link: [
+  //       {
+  //         rel: 'stylesheet',
+  //         href: 'https://fonts.googleapis.com/css2?family=VT323&display=swap'
+  //       }
+  //     ]
+  //   }
+  // },
   content: {
     // https://content.nuxtjs.org/api/configuration
     highlight: {

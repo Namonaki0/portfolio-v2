@@ -3,7 +3,7 @@ const links = [
   {
     name: "GitHub",
     href: "https://github.com/Namonaki0",
-    icon: "entypo-social:github-with-circle",
+    icon: "pajamas:github",
   },
   {
     name: "LinkedIn",

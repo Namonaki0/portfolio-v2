@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'VarentGrotesk';
+    font-weight: 400;
+    src: url('~/assets/fonts/VarentGrotesk-ExtLtIta.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'VarentGrotesk';
+    font-weight: 600;
+    src: url('~/assets/fonts/VarentGrotesk-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NeueMetana';
+    font-weight: 400;
+    src: url('~/assets/fonts/NeueMetana-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NeueMetana';
+    font-weight: 600;
+    src: url('~/assets/fonts/NeueMetana-Bold.otf') format('truetype');
+}
