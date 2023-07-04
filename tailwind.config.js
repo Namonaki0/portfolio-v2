@@ -1,7 +1,7 @@
 module.exports = {
   theme: {
     fontFamily: {
-      sans: ["VarentGrotesk"],
+      sans: ["RobotoMono"],
     },
     extend: {
       fontFamily: {

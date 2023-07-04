@@ -5,8 +5,11 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxt/content', '@nuxtjs/apollo'],
-  // app: {
-  //   head: {
+  app: {
+    // layoutTransition: { name: 'layout', mode: 'out-in' }
+
+    pageTransition: { name: 'page', mode: 'out-in' },
+    // head: {
   //     link: [
   //       {
   //         rel: 'stylesheet',
@@ -14,7 +17,7 @@ export default defineNuxtConfig({
   //       }
   //     ]
   //   }
-  // },
+  },
   content: {
     // https://content.nuxtjs.org/api/configuration
     highlight: {

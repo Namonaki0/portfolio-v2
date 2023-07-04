@@ -14,8 +14,13 @@ const route = useRoute();
 
 const navigation = [
   { name: "Home", href: "/", current: route.name === "index" },
-  { name: "Blog", href: "/blog", current: route.name.includes("blog") },
+  // { name: "Blog", href: "/blog", current: route.name.includes("blog") },
   { name: "Projects", href: "/projects", current: route.name === "projects" },
+  {
+    name: "Repositories",
+    href: "/repositories",
+    current: route.name === "repositories",
+  },
   { name: "Uses", href: "/uses", current: route.name === "uses" },
 ];
 </script>
@@ -24,7 +29,7 @@ const navigation = [
   <Disclosure as="nav" class="bg-gray-800" v-slot="{ open }">
     <div class="flex mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div
-        class="relative flex h-16 items-center justify-between overflow-hidden"
+        class="relative flex flex-1 h-16 items-center justify-between overflow-hidden"
       >
         <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
@@ -36,11 +41,15 @@ const navigation = [
             <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" />
           </DisclosureButton>
         </div>
-        <div class="font-logo text-white flex flex-1 self-center text-6xl">
-          AF
+        <div class="text-white flex flex-1">
+          <div class="p-3">
+            <span class="text-md lg:text-3xl">ANDRE FERREIRA</span>
+            <p class="text-xs lg:text-sm">FRONTEND WEB DEVELOPER</p>
+          </div>
+          <!-- <img src="../assets/logo.png" class="object-contain" /> -->
         </div>
         <div class="flex flex-1 items-center justify-end sm:items-stretch">
-          <div class="hidden sm:ml-6 sm:block">
+          <div class="hidden sm:ml-6 md:block">
             <div class="flex space-x-4 justify-center">
               <a
                 v-for="item in navigation"

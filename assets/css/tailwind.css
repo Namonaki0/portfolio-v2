@@ -25,3 +25,26 @@
     font-weight: 600;
     src: url('~/assets/fonts/NeueMetana-Bold.otf') format('truetype');
 }
+
+@font-face {
+    font-family: 'RobotoMono';
+    font-weight: 400;
+    src: url('~/assets/fonts/RobotoMono-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoMono';
+    font-weight: 600;
+    src: url('~/assets/fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
+}
+
+
+/* .page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+} */
